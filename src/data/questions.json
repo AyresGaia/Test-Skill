@@ -1,0 +1,24 @@
+{
+  "aptitude": [
+    {
+      "id": 1,
+      "question": "What is 2 + 3?",
+      "options": ["2", "3", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": 2,
+      "question": "Find the next number: 2, 4, 6, ?",
+      "options": ["7", "8", "9", "10"],
+      "answer": "8"
+    }
+  ],
+  "softSkills": [
+    {
+      "id": 1,
+      "question": "Effective communication includes:",
+      "options": ["Listening", "Talking only", "Ignoring", "Shouting"],
+      "answer": "Listening"
+    }
+  ]
+}
