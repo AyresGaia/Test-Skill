@@ -10,7 +10,6 @@
     {"id":8,"question":"If A=B and B=C, then A=?","options":["C","B","A","D"],"answer":"C"},
     {"id":9,"question":"LCM of 4 and 5?","options":["20","10","15","25"],"answer":"20"},
     {"id":10,"question":"HCF of 12 and 16?","options":["2","4","6","8"],"answer":"4"}
-    // ... add more questions up to 100+ if needed
   ],
   "softSkills": [
     {"id":1,"question":"Active listening includes?","options":["Interrupting","Ignoring","Clarifying","Talking only"],"answer":"Clarifying"},
@@ -18,13 +17,11 @@
     {"id":3,"question":"Teamwork requires?","options":["Selfishness","Collaboration","Competition only","Isolation"],"answer":"Collaboration"},
     {"id":4,"question":"Time management is?","options":["Procrastination","Planning","Ignoring deadlines","Multitasking only"],"answer":"Planning"},
     {"id":5,"question":"Conflict resolution requires?","options":["Aggression","Patience","Ignoring","Yelling"],"answer":"Patience"}
-    // ... add more up to 50-100 questions
   ],
   "frontend": [
     {"id":1,"question":"React is a ___","options":["Library","Framework","Language","Database"],"answer":"Library"},
     {"id":2,"question":"JSX stands for?","options":["JavaScript XML","Java Simple X","JavaScript Extra","None"],"answer":"JavaScript XML"},
     {"id":3,"question":"State in React is?","options":["Immutable","Mutable","Database","CSS"],"answer":"Mutable"},
     {"id":4,"question":"Props in React are?","options":["Mutable","Immutable","Functions only","None"],"answer":"Immutable"}
-    // ... more domain-specific questions
   ]
 }
