@@ -1,24 +1,30 @@
 {
   "aptitude": [
-    {
-      "id": 1,
-      "question": "What is 2 + 3?",
-      "options": ["2", "3", "5", "6"],
-      "answer": "5"
-    },
-    {
-      "id": 2,
-      "question": "Find the next number: 2, 4, 6, ?",
-      "options": ["7", "8", "9", "10"],
-      "answer": "8"
-    }
+    {"id":1,"question":"2 + 2 = ?","options":["2","3","4","5"],"answer":"4"},
+    {"id":2,"question":"5 * 6 = ?","options":["11","30","20","15"],"answer":"30"},
+    {"id":3,"question":"Square root of 144?","options":["12","14","16","10"],"answer":"12"},
+    {"id":4,"question":"Next number: 2, 4, 8, 16, ?","options":["18","24","32","36"],"answer":"32"},
+    {"id":5,"question":"If 3x=12, x=?","options":["2","3","4","5"],"answer":"4"},
+    {"id":6,"question":"7+6*2=?","options":["20","19","18","21"],"answer":"19"},
+    {"id":7,"question":"What is 15% of 200?","options":["25","30","35","40"],"answer":"30"},
+    {"id":8,"question":"If A=B and B=C, then A=?","options":["C","B","A","D"],"answer":"C"},
+    {"id":9,"question":"LCM of 4 and 5?","options":["20","10","15","25"],"answer":"20"},
+    {"id":10,"question":"HCF of 12 and 16?","options":["2","4","6","8"],"answer":"4"}
+    // ... add more questions up to 100+ if needed
   ],
   "softSkills": [
-    {
-      "id": 1,
-      "question": "Effective communication includes:",
-      "options": ["Listening", "Talking only", "Ignoring", "Shouting"],
-      "answer": "Listening"
-    }
+    {"id":1,"question":"Active listening includes?","options":["Interrupting","Ignoring","Clarifying","Talking only"],"answer":"Clarifying"},
+    {"id":2,"question":"Good email etiquette means?","options":["All caps","Clear subject line","No greeting","No signature"],"answer":"Clear subject line"},
+    {"id":3,"question":"Teamwork requires?","options":["Selfishness","Collaboration","Competition only","Isolation"],"answer":"Collaboration"},
+    {"id":4,"question":"Time management is?","options":["Procrastination","Planning","Ignoring deadlines","Multitasking only"],"answer":"Planning"},
+    {"id":5,"question":"Conflict resolution requires?","options":["Aggression","Patience","Ignoring","Yelling"],"answer":"Patience"}
+    // ... add more up to 50-100 questions
+  ],
+  "frontend": [
+    {"id":1,"question":"React is a ___","options":["Library","Framework","Language","Database"],"answer":"Library"},
+    {"id":2,"question":"JSX stands for?","options":["JavaScript XML","Java Simple X","JavaScript Extra","None"],"answer":"JavaScript XML"},
+    {"id":3,"question":"State in React is?","options":["Immutable","Mutable","Database","CSS"],"answer":"Mutable"},
+    {"id":4,"question":"Props in React are?","options":["Mutable","Immutable","Functions only","None"],"answer":"Immutable"}
+    // ... more domain-specific questions
   ]
 }

@@ -1,14 +1,14 @@
 {
   "aptitude": [
-    {
-      "title": "Basic Maths Refresher",
-      "link": "https://www.khanacademy.org/math"
-    }
+    {"title":"Khan Academy - Math","link":"https://www.khanacademy.org/math"},
+    {"title":"Brilliant.org - Problem Solving","link":"https://brilliant.org/"}
   ],
   "softSkills": [
-    {
-      "title": "Communication Skills",
-      "link": "https://www.coursera.org/learn/wharton-communication"
-    }
+    {"title":"Coursera - Communication Skills","link":"https://www.coursera.org/learn/wharton-communication"},
+    {"title":"edX - Leadership Skills","link":"https://www.edx.org/course/leadership-skills"}
+  ],
+  "frontend": [
+    {"title":"React Official Docs","link":"https://reactjs.org/docs/getting-started.html"},
+    {"title":"FreeCodeCamp - React","link":"https://www.freecodecamp.org/learn/front-end-libraries/react/"}
   ]
 }
